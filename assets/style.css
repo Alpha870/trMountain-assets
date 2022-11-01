@@ -55,8 +55,12 @@ a:hover {
 /* nav */
 
 nav {
-    margin: 4rem 2rem;
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 input {
     height: 2rem;
@@ -80,11 +84,16 @@ i {
 
 /* article */
 
-article {
+.article-section1 {
     padding: 1rem;
     color: white;
     line-height: 0rem;
     font-size: 1.5rem;
+    text-align: center;
+}
+
+.article-section2 {
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -95,15 +104,14 @@ article button {
 }
 
 .button-registro {
-    align-items: center;
-    background-color: #fff;
-    border-radius: 12px;
-    color: #121212;
+    background: black;
+    padding: 0.5rem 2rem  ;
+    border-radius: 50px;
+    color: black;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border: none;
-    text-align: center;
 }
 
 .button-registro:hover {
@@ -126,7 +134,7 @@ aside {
 
 aside img {
     height: 300px;
-    width: 400px;
+    width: 500px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px black;
 }
