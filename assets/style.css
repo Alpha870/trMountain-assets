@@ -241,22 +241,22 @@ footer {
         height: auto;
     }
     
-    ul {
-        list-style: none
+    /* ul {
+        list-style: none;
+    } */
+    
+    .footer-section2 h3 {
+        text-align: center;
     }
 
     .footer-section2 ul {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
     }
 
     .footer-section2 li {
-        padding: 10px;
+        padding: 5px;
     }
     
-    .footer-section2 h3 {
-        text-align: center;
-    }
 
 }
