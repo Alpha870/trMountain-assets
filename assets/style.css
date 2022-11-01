@@ -1,4 +1,149 @@
 html {
     margin: 0;
     padding: 0;
+    font-size: 1rem;
+}
+
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration:none;
+}
+
+body {
+    background-image: url(./imagenes/montaña\ fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    margin: 20px;
+    color: white;
+}
+
+.logo {
+    height: 5rem;
+    margin-right: 2rem ;
+    margin-bottom: -7px;
+}
+.section1 {
+    display: flex;
+    flex-grow: 2;
+    gap: 2rem;
+}
+
+.a {
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(170, 166, 166)
+}
+
+/* nav */
+
+nav {
+    margin: 5rem 2rem;
+}
+
+input {
+    height: 2rem;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+}
+
+i {
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+/* article */
+
+article {
+    padding: 4rem;
+    color: white;
+    line-height: 0rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+article button {
+    height: 2rem;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+}
+
+.button-registro {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    color: #121212;
+    cursor: pointer;
+}
+
+.button-registro:hover {
+    background-color: grey;
+    color: white;
+  }
+
+/* aside */
+
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+aside img {
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+footer {
+    color: white;
+}
+
+
+
+/* CSS */
+.button-35 {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-35:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
 }
