@@ -203,5 +203,16 @@ footer {
 
 /* ipad */
 @media screen and (max-width: 768px) {
+    form {
+        text-align: center;
+    }
 
+    .enviar {
+        margin: 1rem;
+    }
 }
+
+/* movile */
+
+
+
