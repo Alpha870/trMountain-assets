@@ -41,6 +41,7 @@ header {
 header a {
     font-size: 1rem;
     font-weight: bold;
+    padding: 10px;
 }
 
 .a {
@@ -135,6 +136,7 @@ aside {
 aside img {
     height: 300px;
     width: 500px;
+    margin: 15px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px black;
 }
@@ -185,4 +187,21 @@ footer {
 .footer-section3 {
     display: flex;
     justify-content: center;
+}
+
+/* laptop */
+@media screen and (max-width: 1280px) {
+        header a {
+            margin-top: 45px;
+            padding: 10px;
+        }
+
+        .footer-section1 a {
+            padding: 10px;
+        }
+}
+
+/* ipad */
+@media screen and (max-width: 768px) {
+
 }
