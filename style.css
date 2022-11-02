@@ -214,7 +214,7 @@ footer {
 }
 
 /* movile */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .section1{
         display: none;
     }
@@ -230,11 +230,11 @@ footer {
     }
 
     article h1 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     article h5 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     aside img {
