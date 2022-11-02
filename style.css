@@ -89,7 +89,7 @@ i {
 .article-section1 {
     padding: 1rem;
     color: white;
-    line-height: 0rem;
+    line-height: 1rem;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -200,10 +200,15 @@ footer {
         .footer-section1 a {
             padding: 10px;
         }
+
+        .footer-section-quienes-somos {
+            display: none;
+        }
+
+        
 }
 
-/* ipad */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 824px) {
     form {
         text-align: center;
     }
@@ -211,6 +216,49 @@ footer {
     .enviar {
         margin: 1rem;
     }
+}
+
+/* ipad */
+@media screen and (max-width: 730px) {
+    form {
+        text-align: center;
+    }
+
+    .enviar {
+        margin: 1rem;
+    }
+
+    .section1{
+        display: none;
+    }
+
+    .article-section1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    article h4 {
+        font-size: 1.5rem;
+    }
+
+    article h1 {
+        font-size: 1.5rem;
+    }
+    
+    article h5 {
+        font-size: 1rem;
+    }
+
+    aside img {
+        width: 80%;
+        height: auto;
+    }
+
+    .footer-section-quienes-somos {
+        display: block;
+    }
+
 }
 
 /* movile */
