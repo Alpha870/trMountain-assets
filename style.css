@@ -188,7 +188,10 @@ footer {
 .footer-section3 {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
+/* Media  */
 
 /* laptop */
 @media screen and (max-width: 1280px) {
@@ -244,10 +247,12 @@ footer {
 
     article h1 {
         font-size: 1.5rem;
+        margin-top: -10px;
     }
     
     article h5 {
         font-size: 1rem;
+        margin-top: -5px;
     }
 
     aside img {
@@ -255,10 +260,14 @@ footer {
         height: auto;
     }
 
+    .footer-section1 h4{
+        display: block;
+    }
+    
     .footer-section-quienes-somos {
         display: block;
     }
-
+    
 }
 
 /* movile */
@@ -272,11 +281,11 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
     }
-
+    
     article h4 {
         font-size: 1rem;
     }
-
+    
     article h1 {
         font-size: 1rem;
     }
@@ -289,20 +298,26 @@ footer {
         width: 80%;
         height: auto;
     }
+    
+    .footer-section1 h4{
+        display: none;
+    }
 
+    .footer-section2 {
+        margin: auto;
+    }
     
     .footer-section2 h3 {
         text-align: center;
     }
-
+    
     .footer-section2 ul {
         display: flex;
         flex-direction: column;
     }
-
+    
     .footer-section2 li {
         padding: 5px;
     }
     
-
 }
