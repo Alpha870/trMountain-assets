@@ -186,7 +186,7 @@ aside img:hover {
 
 .banner {
     margin-top: 5rem;
-    width: 90%;
+    width: 60%;
     height: auto;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -195,7 +195,7 @@ aside img:hover {
 
 .texto-banner {
     padding-top: 2rem;
-    width: 90%;
+    width: 60%;
     background-color: rgb(0, 0, 0, 0.5);
     color: white;
     text-align: center;
@@ -265,6 +265,14 @@ footer {
         header a {
             margin-top: 45px;
             padding: 10px;
+        }
+
+        .banner {
+            width: 90%;
+        }
+
+        .texto-banner {
+            width: 90%;
         }
 
         .footer-section1 a {
