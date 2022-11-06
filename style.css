@@ -94,6 +94,23 @@ i {
     text-align: center;
 }
 
+.article-section1 h4 {
+    animation-name: pulse;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+
+@keyframes pulse {
+    0% { color: white; scale: 1.1;}
+    15% { color: white; scale: 1.1;}
+    30% { color: rgb(231, 58, 202); scale: 1.5;}
+    45% { color: white; scale: 1.1;}
+    60% { color: rgb(231, 58, 202); scale: 1.5;}
+    85% { color: white; scale: 1.1;}
+    100% { color: white; scale: 1.1;}
+}
+
 .article-section2 {
     margin-top: 10px;
     text-align: center;
@@ -158,6 +175,43 @@ aside img:hover {
     60% { transform: rotateY(0deg)}
     100% { transform: rotateY(360deg)}
   }
+
+/* banner */
+
+.contenedor-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner {
+    margin-top: 5rem;
+    width: 90%;
+    height: auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    box-shadow: 0px 0px 10px 5px white;
+}
+
+.texto-banner {
+    padding-top: 2rem;
+    width: 90%;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    border-top: 5px solid rgb(231, 58, 202, 0.8);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0px 0px 10px 5px white;
+}
+
+.texto-banner span {
+    color: rgb(231, 58, 202);
+}
+
+.texto-banner h4,h5{
+    margin: 2rem;
+}
 
 
 /* footer */
