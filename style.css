@@ -186,6 +186,7 @@ aside img:hover {
 
 .banner {
     margin-top: 5rem;
+    max-width: 500px;
     width: 60%;
     height: auto;
     border-top-left-radius: 1rem;
